@@ -1,1 +1,180 @@
+/*********************************
+*******   BASIC CSS   ************
+*********************************/
 
+html {
+    color: white;
+    background-color: white;
+    font-size: 18px;
+    font-family: "Helvetica", sans-serif;
+}
+
+.innen {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+main h2 {
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    background-color: white;
+    font-size: 1rem;
+}
+
+
+/*********************************
+*******   HEADER   ***************
+*********************************/
+
+header {
+    background-color: black;
+}
+
+
+.logo .innen {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo img {
+    height: 1.5rem;
+    margin: 0 1rem 0 0.5rem;
+}
+
+.logo h2 {
+    margin: 0.66rem 0;
+}
+
+
+/*********************************
+*******   MAIN BANNER   **********
+*********************************/
+
+main {
+    background-image: url(../images/moto.jpeg);
+    background-size: cover;
+    height: 25rem;
+}
+
+.promotion {
+    background-color: black;
+    text-transform: uppercase;
+    position: absolute;
+    top: 9rem;
+    padding: 2rem 3rem;
+    width: 20rem;
+}
+
+.promotion h2 {
+    /*    margin-bottom: 0.25rem;*/
+}
+
+.promotion h1 {
+    margin-top: 0.25rem;
+    line-height: normal;
+}
+
+/*********************************
+*******   NAV   ******************
+*********************************/
+
+nav {
+    background-color: firebrick;
+}
+
+nav .innen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/*********************************
+*******   PRODUCT   **************
+*********************************/
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    background-color: white;
+}
+
+.product {
+    width: 30%;
+}
+
+.product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9rem;
+    padding: 2rem 0;
+    border: 4px solid black;
+}
+
+.product-image img {
+    max-width: 8rem;
+}
+
+.description {
+    display: block;
+    padding: 0.5rem;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+
+/*********************************
+*******   SHOP   *****************
+*********************************/
+
+.shop .innen {
+    margin: 3rem auto 4rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    background-color: black;
+    width: 35%;
+}
+
+.info h2 {
+    padding: 1rem 0 1rem 2rem;
+}
+
+/*********************************
+*******   FOOTER   ***************
+*********************************/
+
+footer {
+    background-color: black;
+}
+
+footer .innen {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    height: 5rem;
+}
