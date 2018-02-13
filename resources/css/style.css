@@ -33,6 +33,12 @@ p {
     font-size: 1rem;
 }
 
+@media only screen and (max-width: 1024px) {
+    .innen {
+        transition: 2s;
+        max-width: 100%;
+    }
+}
 
 /*********************************
 *******   HEADER   ***************
@@ -88,6 +94,9 @@ main {
     line-height: normal;
 }
 
+
+
+
 /*********************************
 *******   NAV   ******************
 *********************************/
@@ -106,6 +115,22 @@ nav .innen {
 nav a {
     color: white;
     text-decoration: none;
+}
+
+nav .small {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    nav .big {
+        display: none;
+    }
+
+    nav .small {
+        display: block;
+        text-align: center;
+    }
+
 }
 
 /*********************************
@@ -144,6 +169,17 @@ nav a {
     color: white;
 }
 
+@media only screen and (max-width: 1024px) {
+    .pen {
+        display: none;
+    }
+
+
+    .product {
+        width: 47%;
+
+    }
+}
 
 /*********************************
 *******   SHOP   *****************
@@ -155,9 +191,13 @@ nav a {
     justify-content: space-between;
 }
 
+.info_container {
+    width: 35%;
+}
+
 .info {
     background-color: black;
-    width: 35%;
+
 }
 
 .info h2 {
